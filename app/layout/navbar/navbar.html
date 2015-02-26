@@ -1,0 +1,23 @@
+<nav class="navbar navbar-success navbar-fixed-top" data-ng-controller="Navbar as navbar">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="javascript:void(0)">
+            <img src="{{navbar.logoPath}}" alt="">
+            <span>{{navbar.nomeDaAplicacao}}</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav">
+            <li data-ng-repeat="m in navbar.menuItems" data-ng-class="navbar.ehMenuAtivo(m)">
+                <a href="#{{m.originalPath}}">{{m.title}}</a>
+            </li>
+        </ul>
+        <form class="navbar-form navbar-right">
+            <meumapa-geo-search-field coordenadas-carregadas="navbar.posicionarMapa(lat,lon)" input-id="meumapa-searchfield" placeholder="Digite um local" classes="col-md-8"/>
+        </form>
+    </div>
+</nav>
