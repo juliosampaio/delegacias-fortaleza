@@ -21,7 +21,7 @@
 	function inicializarMapa(lat,lon,containerID){
 		
 		var mapOptions = {
-          zoom: 15,
+          zoom: 14,
           center: new google.maps.LatLng(lat,lon)
         };
 

@@ -47,7 +47,7 @@
 				return;
 			}
 
-			Delegacias.proximas(loc.lat,loc.lon,500000).then(function(delegacias){
+			Delegacias.proximas(loc.lat,loc.lon,5000).then(function(delegacias){
 				var markers = mapaHelper.adicionarPontos(mapaHelper.mapa,delegacias,function(delegacia){
 					$rootScope.$apply(function(){
 						$rootScope.delegacia = delegacia;
