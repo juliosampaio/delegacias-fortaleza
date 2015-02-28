@@ -78,12 +78,12 @@
 		function getLegenda(){
 			var legenda = [];
 
-			legenda.push({nome:'Delegacia Distrital',icone:'/delegacias-fortaleza/icons/delegacia-distrital.png',descricao:'Delegacia do bairro'});
-			legenda.push({nome:'Delegacia Especializada',icone:'/delegacias-fortaleza/icons/delegacia-especializada.png',descricao:'Delegacia do bairro'});
-			legenda.push({nome:'Delegacia Metropolitana',icone:'/delegacias-fortaleza/icons/delegacia-metropolitana.png',descricao:'Delegacia do bairro'});
-			legenda.push({nome:'Delegacia Municipal',icone:'/delegacias-fortaleza/icons/delegacia-municipal.png',descricao:'Delegacia do bairro'});
-			legenda.push({nome:'Delegacia Plantonista',icone:'/delegacias-fortaleza/icons/delegacia-plantonista.png',descricao:'Delegacia do bairro'});
-			legenda.push({nome:'Delegacia Regional',icone:'/delegacias-fortaleza/icons/delegacia-regional.png',descricao:'Delegacia do bairro'});
+			legenda.push({nome:'Delegacia Distrital',icone:'/delegacias-fortaleza/icons/delegacia-distrital.png',descricao:''});
+			legenda.push({nome:'Delegacia Especializada',icone:'/delegacias-fortaleza/icons/delegacia-especializada.png',descricao:''});
+			legenda.push({nome:'Delegacia Metropolitana',icone:'/delegacias-fortaleza/icons/delegacia-metropolitana.png',descricao:''});
+			legenda.push({nome:'Delegacia Municipal',icone:'/delegacias-fortaleza/icons/delegacia-municipal.png',descricao:''});
+			legenda.push({nome:'Delegacia Plantonista',icone:'/delegacias-fortaleza/icons/delegacia-plantonista.png',descricao:''});
+			legenda.push({nome:'Delegacia Regional',icone:'/delegacias-fortaleza/icons/delegacia-regional.png',descricao:''});
 
 			return legenda;
 		}
