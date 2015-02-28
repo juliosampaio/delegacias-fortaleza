@@ -64,7 +64,6 @@
 
 		function montarQueryURL(query){
 		    var url = config.API_URL+'query/?sql='+query+config.API_QUERY_TAIL;
-		    console.log(url);
 		    return url;
 		}
 	}
