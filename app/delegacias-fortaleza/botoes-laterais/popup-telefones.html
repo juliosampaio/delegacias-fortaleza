@@ -1,0 +1,29 @@
+<div id="delegacias-fortaleza-modal-telefones" class="modal fade" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title">Telefones Úteis</h4>
+      </div>
+      <div class="modal-body">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Orgão</th>
+              <th>Telefone</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-ng-repeat="tel in [{desc:'Polícia',numero:'190'},{desc:'Ambulância',numero:'192'},{desc:'Bombeiros',numero:'193'}]">
+              <td>{{tel.desc}}</td>
+              <td><a href="tel:{{tel.numero}}">{{tel.numero}}</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
