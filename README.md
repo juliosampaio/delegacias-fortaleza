@@ -13,4 +13,6 @@ $ npm install
 $ bower install
 ```
 
+Licenciado sob Creative Commons BY-NC-SA 3.0: http://creativecommons.org/licenses/by-nc-sa/3.0/, Copyright by Julio Sampaio, 2015
+
 [1]:https://github.com/juliosampaio/delegacias-fortaleza/milestones/Melhorias
